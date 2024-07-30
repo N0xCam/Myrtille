@@ -10,13 +10,13 @@
 
    <div id="rubriques">
     <ul>
-      <li>
+      <li id="presentation">
         Présentation
       </li>
-      <li>
+      <li  id="creations">
         Mes Créations
       </li>
-      <li>
+      <li id="contact">
         Me contacter
       </li>
     </ul>
@@ -38,8 +38,5 @@
   justify-content: space-around;
 }
 
-#rubriques {
-  padding-left: 25em;
-}
 
 </style>
