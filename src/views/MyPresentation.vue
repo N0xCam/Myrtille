@@ -1,13 +1,15 @@
-<script setup lang="ts">
-import TheWelcome from '../components/MyModal.vue'
-import MyFooter from '../components/MyFooter.vue'
-</script>
-
 <template>
-  <main>
-    <TheWelcome />
-  </main>
-  <footer>
-    <MyFooter />
-  </footer>
+  <MyHeader/>
+  <MyPresentation/>
+  <MyModal/>
+  <MyForm/>
+  <MyFooter/>
 </template>
+
+<script setup>
+import MyHeader from '../components/MyHeader.vue';
+import MyModal from '../components/MyModal.vue';
+import MyForm from '../components/MyForm.vue';
+import MyFooter from '../components/MyFooter.vue';
+
+</script>
