@@ -7,14 +7,28 @@
    <img src="../assets/logo_Myrtille.png">
    </div>
 
-   <div id="feuille">
-    <img src="../assets/Error_404.png">
+   <div id="menu">
+    <ul>
+      <li>
+        Présentation
+      </li>
+      <li>
+        Mes Créations
+      </li>
+      <li>
+        Me contacter
+      </li>
+    </ul>
    </div>
 </template>
 
 <style scoped>
 
-#logo{
-  
-}
+#myrtille{
+  width: 10em;
+  height: 6em;
+  padding-bottom: 5em;
+};
+
+
 </style>
