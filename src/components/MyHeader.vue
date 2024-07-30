@@ -3,11 +3,12 @@
 </script>
 
 <template>
+  <div id="menu">
    <div id="myrtille">
    <img src="../assets/logo_Myrtille.png">
    </div>
 
-   <div id="menu">
+   <div id="rubriques">
     <ul>
       <li>
         Présentation
@@ -20,6 +21,7 @@
       </li>
     </ul>
    </div>
+  </div>
 </template>
 
 <style scoped>
@@ -30,5 +32,14 @@
   padding-bottom: 5em;
 };
 
+#menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#rubriques {
+  padding-left: 25em;
+}
 
 </style>
