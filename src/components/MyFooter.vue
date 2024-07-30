@@ -35,8 +35,7 @@
 
 img {
     height: 5em;
-    display: flex;
-    flex-direction: column;
+    margin-left: 1em;
     
     
 };

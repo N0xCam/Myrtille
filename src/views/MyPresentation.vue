@@ -1,6 +1,6 @@
 <template>
   <MyHeader/>
-  <MyPresentation/>
+  <MeMyrtille/>
   <MyModal/>
   <MyForm/>
   <MyFooter/>
@@ -8,6 +8,7 @@
 
 <script setup>
 import MyHeader from '../components/MyHeader.vue';
+import MeMyrtille from '../components/Me_Myrtille.vue'
 import MyModal from '../components/MyModal.vue';
 import MyForm from '../components/MyForm.vue';
 import MyFooter from '../components/MyFooter.vue';
