@@ -13,7 +13,9 @@
 <style>
   #modal {
     height: 30em;
-    padding-top: 25em;
+    background-color: red;
   };
+
+ 
 
 </style>
