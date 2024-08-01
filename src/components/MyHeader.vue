@@ -26,17 +26,61 @@
 
 <style scoped>
 
-#myrtille{
-  width: 10em;
-  height: 6em;
-  padding-bottom: 5em;
+* {
+  display:flex;
+  background-color: plum;
+  height: 20em;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  
+}
+
+#img{
+  width: 2em;
+  height: 10em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  
 };
+
+ul {
+  height: 10em;
+  width: 7em;
+}
 
 #menu {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: column;  
+  height: 15em;
 }
 
+#rubriques {
+  font-family: "caviar", sans-serif;
+  font-size: 2em;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 40%
+}
+
+#presentation {
+  height: 10em;
+  width: 7em;
+}
+
+#creations {
+  height: 10em;
+  width: 7em;
+}
+
+#contact {
+  height: 10em;
+  width: 7em;
+}
 
 </style>
