@@ -1,8 +1,8 @@
 <template>
 
-    <img src="../assets/footer_GitHub.png">
-    <img src="../assets/footer_LINKEDin.png">
-    <img src="../assets/footer_X.png">
+    <img src="../assets/images/footer_GitHub.png">
+    <img src="../assets/images/footer_LINKEDin.png">
+    <img src="../assets/images/footer_X.png">
    <div id="mentions">
     <small> Myrtille - 2024 </small>
     <small> Dernière modification le 29 juillet 2024</small>

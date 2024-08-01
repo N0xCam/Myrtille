@@ -3,9 +3,10 @@
 </script>
 
 <template>
+  <MyHeader>
   <div id="menu">
    <div id="myrtille">
-   <img src="../assets/logo_Myrtille.png">
+   <img src="../assets/images/logo_Myrtille.png">
    </div>
 
    <div id="rubriques">
@@ -22,6 +23,7 @@
     </ul>
    </div>
   </div>
+</MyHeader>
 </template>
 
 <style scoped>
@@ -34,6 +36,7 @@
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  align-items: center;
   
 }
 
@@ -46,19 +49,20 @@
 };
 
 ul {
+  display: flex;
   height: 10em;
   width: 7em;
 }
 
 #menu {
-  display: flex;
-  flex-direction: column;  
-  height: 15em;
+  display:flex;
 }
 
 #rubriques {
-  font-family: "caviar", sans-serif;
-  font-size: 2em;
+    font-family: "caviar", sans-serif;
+    font-size: 2em;
+    padding-top: 0em;
+    padding-bottom: 0em;
   
 }
 

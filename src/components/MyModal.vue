@@ -4,9 +4,9 @@
 
 <template>
   <div id="modal">
-  <img src="../assets/modal_1.png">
-  <img src="../assets/modal_2.png">
-  <img src="../assets/modal_3.png">
+  <img src="../assets/images/modal_1.png">
+  <img src="../assets/images/modal_2.png">
+  <img src="../assets/images/modal_3.png">
   </div>
 </template>
 
