@@ -1,41 +1,86 @@
 <script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
+
 </script>
 
 <template>
-  <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
-    </h3>
+  <div id="menu">
+   <div id="myrtille">
+   <img src="../assets/logo_Myrtille.png">
+   </div>
+
+   <div id="rubriques">
+    <ul>
+      <li id="presentation">
+        Présentation
+      </li>
+      <li  id="creations">
+        Mes Créations
+      </li>
+      <li id="contact">
+        Me contacter
+      </li>
+    </ul>
+   </div>
   </div>
 </template>
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
+
+* {
+  display:flex;
+  background-color: plum;
+  height: 20em;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  
 }
 
-h3 {
-  font-size: 1.2rem;
+#img{
+  width: 2em;
+  height: 10em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  
+};
+
+ul {
+  height: 10em;
+  width: 7em;
 }
 
-.greetings h1,
-.greetings h3 {
-  text-align: center;
+#menu {
+  display: flex;
+  flex-direction: column;  
+  height: 15em;
 }
 
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
+#rubriques {
+  font-family: "caviar", sans-serif;
+  font-size: 2em;
+  
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 40%
+}
+
+#presentation {
+  height: 10em;
+  width: 7em;
+}
+
+#creations {
+  height: 10em;
+  width: 7em;
+}
+
+#contact {
+  height: 10em;
+  width: 7em;
+}
+
 </style>
